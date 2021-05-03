@@ -37,16 +37,16 @@ input_length_iemocap = SAMPLING_RATE * DURATION_IEMOCAP
 input_length_ravdess = SAMPLING_RATE * DURATION_RAVDESS
 DEFAULT_FILE = 'microphone-results.wav'
 # TRILL models
-SER_TRILL_MODEL_IEMOCAP = '/content/mser-thesis-app/result_models/ser_trill_lstm_iemocap_model.h5'
-SER_TRILL_MODEL_RAVDESS = '/content/mser-thesis-app/result_models/ser_trill_lstm_ravdess_model.h5'
-MER_ELECTRA_TRILL = '/content/mser-thesis-app/result_models/mer_trill_electra_small_model.h5'
+SER_TRILL_MODEL_IEMOCAP = '/content/mer-thesis-app/result_models/ser_trill_lstm_iemocap_model.h5'
+SER_TRILL_MODEL_RAVDESS = '/content/mer-thesis-app/result_models/ser_trill_lstm_ravdess_model.h5'
+MER_ELECTRA_TRILL = '/content/mer-thesis-app/result_models/mer_trill_electra_small_model.h5'
 # Yamnet models
-SER_YAMNET_MODEL_IEMOCAP = '/content/mser-thesis-app/result_models/ser_yamnet_iemocap_model.h5'
-SER_YAMNET_MODEL_RAVDESS = '/content/mser-thesis-app/result_models/ser_yamnet_ravdess_model.h5'
-MER_ELECTRA_YAMNET = '/content/mser-thesis-app/result_models/mer_electra_yamnet_iemocap_model.h5'
+SER_YAMNET_MODEL_IEMOCAP = '/content/mer-thesis-app/result_models/ser_yamnet_iemocap_model.h5'
+SER_YAMNET_MODEL_RAVDESS = '/content/mer-thesis-app/result_models/ser_yamnet_ravdess_model.h5'
+MER_ELECTRA_YAMNET = '/content/mer-thesis-app/result_models/mer_electra_yamnet_iemocap_model.h5'
 # TER Electra
-TER_ELECTRA_IEMOCAP = '/content/mser-thesis-app/result_models/ter_electra_iemocap_model.h5'
-TER_ELECTRA_PSYCHEXP = '/content/mser-thesis-app/result_models/ter_electra_model_psychexp.h5'
+TER_ELECTRA_IEMOCAP = '/content/mer-thesis-app/result_models/ter_electra_iemocap_model.h5'
+TER_ELECTRA_PSYCHEXP = '/content/mer-thesis-app/result_models/ter_electra_model_psychexp.h5'
 # Emotion available in datasets
 emotions_iemocap = ['neutral', 'happy', 'sad', 'angry']
 emotions_ravdess = ['neutral', 'calm', 'happy', 'sad', 'angry', 'fearful', 'disgust', 'surprised']
