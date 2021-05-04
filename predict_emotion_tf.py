@@ -50,7 +50,7 @@ TER_ELECTRA_PSYCHEXP = '/content/mer-thesis-app/result_models/ter_electra_model_
 # Emotion available in datasets
 emotions_iemocap = ['neutral', 'happy', 'sad', 'angry']
 emotions_ravdess = ['neutral', 'calm', 'happy', 'sad', 'angry', 'fearful', 'disgust', 'surprised']
-emotion_psychexp = ["joy", 'fear', "anger", "sadness", "disgust", "shame", "guilt"]
+emotion_psychexp = ['joy', 'fear', 'anger', 'sadness', 'disgust', 'shame', 'guilt']
 # Language of the models
 LANG='en'
 # URL addresses for the audio embeddings
